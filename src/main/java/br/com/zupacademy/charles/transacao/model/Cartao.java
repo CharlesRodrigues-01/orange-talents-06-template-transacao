@@ -15,7 +15,7 @@ public class Cartao {
     @Deprecated
     public Cartao() {}
 
-    public Cartao(String id, String email) {
+    public Cartao(String id, @Email String email) {
         this.id = id;
         this.email = email;
     }

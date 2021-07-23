@@ -1,4 +1,4 @@
-package br.com.zupacademy.charles.transacao;
+package br.com.zupacademy.charles.transacao.kafka;
 
 import br.com.zupacademy.charles.transacao.responseDto.TransacoesResponse;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

@@ -27,9 +27,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 )
                 .headers().frameOptions().disable()
                 .and()
-                .cors()
-                .and()
                 .oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt)
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+
     }
 }
